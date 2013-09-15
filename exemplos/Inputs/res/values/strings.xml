@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Inputs</string>
+    <string name="action_settings">Settings</string>
+    
+    <string name="button_text">Botão</string>
+    <string name="email_hint">Text Field</string>
+    
+    <string name="shopping_list">Lista de Compras</string>
+    <string name="meat">Carne</string>
+    <string name="cheese">Queijo</string>
+    <string name="bread">Pão</string>
+    
+    
+    <string name="best_snack">Melhor lanche de Pelotas:</string>
+    <string name="circulus">Circulu\'s</string>
+    <string name="sanata">Sanata</string>
+    <string name="ronaldo">Ronaldo</string>
+    
+    <string name="toggleButton">Toggle Button</string>
+    <string name="spinner">Spinner</string>
+
+</resources>

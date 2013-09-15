@@ -1,0 +1,122 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    	xmlns:tools="http://schemas.android.com/tools"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+	<LinearLayout 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical"
+	    android:paddingBottom="@dimen/activity_vertical_margin"
+	    android:paddingLeft="@dimen/activity_horizontal_margin"
+	    android:paddingRight="@dimen/activity_horizontal_margin"
+	    android:paddingTop="@dimen/activity_vertical_margin"
+	    tools:context=".Input" >
+	
+	    
+	    
+	    <TextView
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:textSize="40sp"
+	        android:layout_marginBottom="10sp"
+	        android:text="@string/app_name"/>
+	    
+	    <Button
+	    	android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content"
+	    	android:layout_marginBottom="20sp"
+	    	android:text="@string/button_text"/>
+	    
+	    <EditText
+		    android:id="@+id/email_address"
+		    android:layout_marginBottom="20sp"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:hint="@string/email_hint"
+		    android:inputType="textEmailAddress" />
+	    
+	    <LinearLayout
+		    android:orientation="vertical"
+			android:id="@+id/checkboxes"
+		    android:layout_width="fill_parent"
+		    android:layout_height="fill_parent">
+	    	<TextView
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:textSize="20sp"
+		        android:layout_marginTop="10sp"
+		        android:layout_marginBottom="5sp"
+		        android:text="@string/shopping_list" />
+		    <CheckBox android:id="@+id/checkbox_meat"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/meat"
+		        />
+		    <CheckBox android:id="@+id/checkbox_cheese"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/cheese"
+		        />
+		    <CheckBox android:id="@+id/checkbox_bread"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/bread"
+		        />
+		</LinearLayout>
+		 
+		 <TextView
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:textSize="20sp"
+	        android:layout_marginBottom="10sp"
+	        android:text="@string/toggleButton"/>
+		 
+		 <ToggleButton 
+			android:id="@+id/togglebutton"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textOn="Ativado"
+			android:textOff="Desativado"
+			android:layout_marginBottom="40sp"
+			/>
+		
+		<TextView
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:textSize="20sp"
+	        android:layout_marginBottom="10sp"
+	        android:text="@string/best_snack"/> 
+	    <RadioGroup 
+	    	android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content"
+	    	android:layout_marginBottom="20sp"
+	    	android:orientation="vertical">
+	    	<RadioButton android:id="@+id/radio_circulus"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/circulus"/>
+	    	<RadioButton android:id="@+id/radio_sanata"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/sanata"/>
+	    	<RadioButton android:id="@+id/radio_ronaldo"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/ronaldo"/>
+		</RadioGroup>
+		
+		<TextView
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:textSize="20sp"
+	        android:layout_marginBottom="10sp"
+	        android:text="@string/spinner"/>
+		<Spinner
+	    android:id="@+id/numbers_spinner"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content" />
+		
+		
+	
+	</LinearLayout>
+</ScrollView>
